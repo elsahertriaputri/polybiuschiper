@@ -29,7 +29,7 @@ def polybius_decrypt(cipher_text):
     return message
 
 # Streamlit App
-st.title("Polybius Cipher Encryptor & Decryptor")
+st.title("Cipher Encryptor & Decryptor")
 
 st.sidebar.header("Input")
 option = st.sidebar.radio("Pilih operasi:", ["Enkripsi", "Dekripsi"])
